@@ -1,0 +1,49 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color: #555;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+}
+
+main {
+    margin: auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    text-align: center;
+}
+
+.refs ul {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.refs ul li {
+    margin-right: 20px;
+}
+
+.refs ul li:last-child {
+    margin-right: 0;
+}
+
+a {
+    color: #83d0f2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
